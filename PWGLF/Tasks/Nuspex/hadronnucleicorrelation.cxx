@@ -86,7 +86,6 @@ struct HadronNucleiCorrelation {
   Configurable<bool> doCorrection{"doCorrection", false, "do efficiency correction"};
   Configurable<bool> removeSameBunchPileup{"removeSameBunchPileup", false, "remove Same Bunch Pileup"};
 
-
   Configurable<std::string> fCorrectionPath{"fCorrectionPath", "", "Correction path to file"};
   Configurable<std::string> fCorrectionHisto{"fCorrectionHisto", "", "Correction histogram"};
   Configurable<std::string> cfgUrl{"cfgUrl", "http://alice-ccdb.cern.ch", "url of the ccdb repository"};
